@@ -7,18 +7,6 @@
   <title>Films</title>
 </head>
 <body>
-  <script>
-    function getMovie() {
-      return fetch('https://swapi.dev/api/films')
-      .then((movieResponse) =>{
-        console.log(movieResponse)
-        movieResponse.map(post => renderPost(post))
-      })
-       .catch((err) => {
-        console.error('Ошибка', err)
-       })
-    }
-    getMovie()
-  </script>
+  <script src="./post.js"></script>
 </body>
 </html>
