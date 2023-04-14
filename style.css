@@ -9,18 +9,19 @@ body{
 }
 
 h1{
+  display: flex;
   background-color: grey;
-  max-width: 600px; 
-  padding: 5px;
+  padding: 10px;
+  justify-content: center;
 }
 
 header {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
 }
 .films {
-  max-width: 600px; 
-  padding: 30px;
+  max-width: 700px; 
+  padding: 10px;
   background-color: rgb(97, 89, 89);
 }
 h2 {
